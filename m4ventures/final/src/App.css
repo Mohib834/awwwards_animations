@@ -1,0 +1,18 @@
+body {
+  font-family: 'Archivo', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Clash Display', sans-serif;
+}
+
+#nav {
+  left: 80px;
+  position: fixed;
+  right: 80px;
+  top: 75px;
+}
+
+.cta:hover .arrow-box .hidden-arrow {
+  left: 10px;
+}
