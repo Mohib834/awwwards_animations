@@ -1,8 +1,8 @@
-import "./App.css";
-
 import logo from "./assets/logo.svg";
 import arrow from "./assets/arrow.svg";
 import bigArrow from "./assets/big-arrow.svg";
+
+import "./App.css";
 
 function App() {
   return (
@@ -36,21 +36,24 @@ function App() {
                 <img
                   key={idx}
                   src={bigArrow}
-                  className="-rotate-45 mb-16"
+                  className="big-arrow -rotate-45 mb-16"
                   width={300}
                 />
               ))}
           </div>
         </div>
 
-        <div className="h-full w-full flex place-items-center justify-center text-center text-[80px] uppercase font-medium leading-[90px] max-w-5xl mx-auto">
-          <h1 className="text-white tracking-wide">
+        <div className="h-full w-full flex place-items-center justify-center text-center text-[90px] uppercase font-medium leading-[90px] max-w-5xl mx-auto">
+          <h1 className="text-white tracking-wide" id="main-text">
             Growing seeds <br /> into forests
           </h1>
         </div>
 
-        <div className="absolute bottom-[80px] right-0 max-w-[445px]">
-          <p className="text-[21px] leading-[34px] text-white">
+        <div className="absolute bottom-[80px] right-0 max-w-[445px] mx-[80px]">
+          <p
+            id="sub-text"
+            className="text-[21px] leading-[34px] text-white font-medium"
+          >
             We are a group of entrepreneurs who support startups to grow and
             expand globally.
           </p>
